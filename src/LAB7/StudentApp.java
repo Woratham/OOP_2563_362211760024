@@ -2,29 +2,28 @@ package LAB7;
 
 public class StudentApp {
     public static void main(String[] args) {
+        Student std1 = new Student(); // call constructor
+        std1.introduce();
+        std1.name = "Puriwat Lertkrai";
+        std1.age = 34;
+        std1.major = "MIT";
+        std1.introduce();
 
-        Student STD1 = new Student();
+        Student std2 = new Student();
+        std2.name = "Piyapong Senanut";
+        std2.age = 37;
+        std2.major = "AC";
+        std2.introduce();
 
-        STD1.introduce();
-        STD1.name="Woratham Kitkha";
-        STD1.age=22;
-        STD1.major="MIT";
-        STD1.introduce();
+        std2.major = "MIT";
+        std2.introduce();
 
-        STD1.introduce();
+        std1.changeFaculty("Engineer RUTS");
+        std1.introduce();
+        std2.introduce();
 
-        Student STD2 =new Student();
-        STD2.name= "Piyapong Senanut";
-        STD2.age= 37;
-        STD2.major= "AC";
-        STD2.introduce();
 
-        STD2.major="MIT";
-        STD2.introduce();;
-
-        STD1.changeFaculty("Engineer RUTS");
-        STD1.introduce();
-        STD2.introduce();
 
     }
+
 }
