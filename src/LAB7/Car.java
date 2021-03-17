@@ -46,4 +46,8 @@ public class Car {
                 ", brand='" + brand + '\'' +
                 '}';
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

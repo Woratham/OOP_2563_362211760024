@@ -2,15 +2,25 @@ package LAB8;
 
 public class Person {
     //Class Attributes
+<<<<<<< HEAD
     private String pid;
+=======
+    private String pid; //เลขบัตรประชาชน
+>>>>>>> origin/master
     private String name;
     private int age;
     private String gender;
     private String tel;
+<<<<<<< HEAD
 
     //constructor
     public Person() {
 
+=======
+    //constructors
+
+    public Person() {
+>>>>>>> origin/master
     }
 
     public Person(String pid, String name, int age, String gender, String tel) {
@@ -20,8 +30,13 @@ public class Person {
         this.gender = gender;
         this.tel = tel;
     }
+<<<<<<< HEAD
 
     //getter setter
+=======
+    //getter and setter
+
+>>>>>>> origin/master
     public String getPid() {
         return pid;
     }
@@ -63,6 +78,10 @@ public class Person {
     }
 
     //toString
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     @Override
     public String toString() {
         return "Person{" +
@@ -73,6 +92,7 @@ public class Person {
                 ", tel='" + tel + '\'' +
                 '}';
     }
+<<<<<<< HEAD
 
     public void introduce(){
         System.out.println("My name is "+name);
@@ -81,3 +101,6 @@ public class Person {
     }
 
 }
+=======
+}
+>>>>>>> origin/master

@@ -1,5 +1,6 @@
 package LAB8;
 
+<<<<<<< HEAD
 public class Employee extends Person{
     //Class Atrribute
     private String empID;
@@ -7,18 +8,34 @@ public class Employee extends Person{
     private double salary;
 
     //constructor
+=======
+public class Employee extends Person {
+    //Class Attributes
+    private String empID; //รหัสพนักงาน
+    private String position;
+    private double salary;
+    //constructors
+
+>>>>>>> origin/master
 
     public Employee() {
     }
 
     public Employee(String pid, String name, int age, String gender, String tel, String empID, String position, double salary) {
+<<<<<<< HEAD
 
         //calling constructor of super class
+=======
+>>>>>>> origin/master
         super(pid, name, age, gender, tel);
         this.empID = empID;
         this.position = position;
         this.salary = salary;
     }
+<<<<<<< HEAD
+=======
+    //getter and setter
+>>>>>>> origin/master
 
     public String getEmpID() {
         return empID;
@@ -44,6 +61,11 @@ public class Employee extends Person{
         this.salary = salary;
     }
 
+<<<<<<< HEAD
+=======
+    //toString
+
+>>>>>>> origin/master
     @Override
     public String toString() {
         return "Employee{" +
@@ -52,4 +74,8 @@ public class Employee extends Person{
                 ", salary=" + salary +
                 "} " + super.toString();
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master

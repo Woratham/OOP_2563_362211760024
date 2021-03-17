@@ -8,7 +8,11 @@ public class EmployeeApp {
 
 
         //use assign constructor
+<<<<<<< HEAD
         Employee emp2 = new Employee("Adithep Chuklin",22,"Student",3000);
+=======
+        Employee emp2 = new Employee("Woratham Kitkha",22,"Student",3000);
+>>>>>>> origin/master
 
         emp1.displayData();
         System.out.println();
